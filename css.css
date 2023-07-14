@@ -1,0 +1,110 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #fff;
+    
+    
+}
+
+
+.banner{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    /* background-color: rgb(255, 255, 255); */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40% );
+    align-items: center;
+    text-align: center;
+
+}
+
+.banner h2{
+    color: #222222;
+    text-indent: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.banner_2{
+    height: 580px;
+    width: 750px;
+    padding: 20px 5px;
+   background-color: aliceblue;
+   border-radius: 10px;
+   box-shadow: 1px 3px 5px 1px #8c8b8b;
+
+}
+
+
+.banner-img{
+    
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 5px -5px 3px 1px rgba(0, 0, 255, 0.47) ;
+    border: 3px solid rgba(0, 0, 255, 0.47);
+    padding: 5px 5px 5px 3px ;
+   
+    
+}
+
+
+
+.person-name{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color: #666666;
+    margin-bottom: 15px;
+    
+
+}
+
+.person-job{
+    font-size: 35px;
+    color: rgba(0, 0, 255, 0.747);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px rgba(0, 0, 255, 0.208) ;
+}
+
+.person-detile{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #444444;
+    opacity: 0.9;
+   
+}
+.butten-scrol{
+    
+    width: 200px;
+    display: inline-flex;
+    justify-content: space-evenly;
+   
+
+}
+
+#btn-revers img{
+   width: 40px; 
+}
+#btn-prev img{
+    width: 40px; 
+ }
+ 
+
+button{
+    padding: 20px 30px;
+    background: none;
+    border: none;
+
+}
